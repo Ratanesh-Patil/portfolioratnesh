@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 import "./App.css";
 import Certification from "./components/Certification";
 import bgimage from './images/cool-background.png';
+import { MiniProjects } from "./components/MiniProjects";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
               <Skills />
               <Education />
               <Projects />
+              <MiniProjects />
               <Certification/>
               <Contact />
             </main>
